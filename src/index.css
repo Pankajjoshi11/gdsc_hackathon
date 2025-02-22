@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: theme('colors.black');
+}
+
+::selection {
+  background: theme('colors.purple.500');
+  color: white;
+}
